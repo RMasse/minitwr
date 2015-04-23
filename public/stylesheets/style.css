@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+  background-image: url("fond_ecran_wallpaper_serie_00505.jpg");
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  color: white;
+  font-size: 120%;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+textarea {
+  resize:none;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+input {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
