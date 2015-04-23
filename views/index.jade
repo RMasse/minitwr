@@ -6,8 +6,11 @@ block content
 
 
 
-  div
-            textarea(name="text", cols="40", rows="5") Enter your text here
-  div.actions
-            input(type="submit", value="Send")
-
+  form(action='/' method='post')
+    textarea(id="text",name="tweet", cols="40", rows="5")
+    br
+    input(type="submit", value="Send")
+  
+  ul
+    - each tweet in tweets
+      li= tweet
