@@ -13,4 +13,15 @@ block content
   
   ul
     - each tweet in tweets
-      li= tweet
+      li= tweet.tweet
+        = " | envoyé le "
+        = tweet.jour
+        = "/"
+        = tweet.mois
+        = "/"
+        = tweet.an
+        = " à "
+        = tweet.heure
+        = ":"
+        = tweet.minute
+
