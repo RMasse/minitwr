@@ -1,11 +1,24 @@
+@font-face {
+  font-family: 'ttw';
+  src: url('TravelingTypewriter.ttf');
+}
+
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: black;
-  background-color: white;
   background-image: url("fond_ecran_wallpaper_serie_00505.jpg");
   background-position: center center;
   background-repeat:no-repeat;
+}
+
+ul {
+  font: 16px ttw;
+  color: black;
+  list-style-type: none;
+  line-height: 200%;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 6px inset white;
+  background-image: url("parchemin.jpg");
 }
 
 a {
@@ -19,6 +32,7 @@ p {
 }
 
 h1 {
+  font: 35px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: white;
   text-align: center;
 }
