@@ -33,7 +33,7 @@ p {
 }
 
 h1 {
-  font: 35px src: url('hobbitonbrushhand.ttf');
+  font: 35px;
   color: white;
   text-align: center;
   background-image: url("title.jpg");
