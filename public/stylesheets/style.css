@@ -4,6 +4,7 @@
 }
 
 
+
 body {
   background-image: url("fond_ecran_wallpaper_serie_00505.jpg");
   background-position: center center;
@@ -32,9 +33,13 @@ p {
 }
 
 h1 {
-  font: 35px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 35px src: url('hobbitonbrushhand.ttf');
   color: white;
   text-align: center;
+  background-image: url("title.jpg");
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
 }
 
 
